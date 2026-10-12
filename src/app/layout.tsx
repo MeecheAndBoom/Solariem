@@ -181,7 +181,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <script id="chatway" async src="https://cdn.chatway.app/widget.js?id=fJKP8nGqZlAh"></script>
         <LoadingProvider>
           <AuthProvider>
             <PinPromptProvider>
